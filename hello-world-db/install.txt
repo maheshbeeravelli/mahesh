@@ -1,0 +1,13 @@
+Requirements: It requires PHP 5.2 or above.
+
+Installation: 
+1. Put hello-world-db folder in hosting server's web-root directory. Make sure you can browse http://your-server/hello-world-db/api.php(This is chat buddy's call-back url.) in your browser. It should print the following:
+<message from="" to=""><body></body></message>
+
+2.) Add the SQL table in the databse from file nexample_db.sql
+
+3.) In file configuration.php
+	Replace correct DB credentials in file configurations.php
+	Replace 'test123' with the jid you got when you registered for a chat buddy on developers.nimbuzz.com.
+
+4.) now try sending commands to your chat buddy on your nimbuzz chat.
